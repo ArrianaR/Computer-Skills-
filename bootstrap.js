@@ -37,7 +37,7 @@ const app = new Vue({
 		postlist: [
 			// constructed Post item
 			new Post(
-				'First Post! Yay!', 		// this is the TITLE place in the class
+				'Santa Cruz', 		// this is the TITLE place in the class
 				'https://google.com',	// this is the LINK place in the class
 				'An Author',			// this is the AUTHOR place in the class
 				'santacruz.jpg',	// this is the IMAGE place in the class
@@ -45,7 +45,7 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Second Post: Lorem',
+				'Where to go?',
 				'https://vuejs.org',
 				'Sammie Author',
 				'travel.jpeg', // this is a local image in the same folder as the js script
@@ -53,7 +53,7 @@ const app = new Vue({
 				),
 
 			new Post(
-				'This Post: Crazy Fredrick',
+				'Desert',
 				'https://google.com',
 				'Bob Author',
 				'road.jpg',
@@ -61,7 +61,7 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Another Post: promptly judged',
+				'New York',
 				'https://vuejs.org',
 				'Jane Author',
 				'raining.jpg',
@@ -69,10 +69,10 @@ const app = new Vue({
 				),
 
 			new Post(
-				'Last Post: Jaded zombies',
+				'Las Vegas',
 				'beach.jpeg',
 				'Anptoght Author',
-				'#',
+				'vegas.jpg',
 				'Jaded zombies acted quaintly but kept driving their oxen forward.'
 				)
 		]
