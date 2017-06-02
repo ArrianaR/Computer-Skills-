@@ -38,42 +38,42 @@ const app = new Vue({
 			// constructed Post item
 			new Post(
 				'Santa Cruz', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
+				'http://www.cityofsantacruz.com',	// this is the LINK place in the class
 				'An Author',			// this is the AUTHOR place in the class
 				'santacruz.jpg',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'Best food and the beaches are great!' // this is the BODY place in the class
 				),
 
 			new Post(
 				'Where to go?',
-				'https://vuejs.org',
+				'http://www.quizony.com/where-should-you-travel/index.html',
 				'Sammie Author',
 				'travel.jpeg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'Wonder where to go on your next trip? Look here!'
 				),
 
 			new Post(
 				'Desert',
-				'https://google.com',
+				'https://www.nps.gov/deva/index.htm',
 				'Bob Author',
 				'road.jpg',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
+				'Deserts are a great place to get away from everything'
 				),
 
 			new Post(
 				'New York',
-				'https://vuejs.org',
+				'https://www.nycgo.com',
 				'Jane Author',
 				'raining.jpg',
-				'We promptly judged antique ivory buckles for the next prize.'
+				'Fooooooooooddddddd'
 				),
 
 			new Post(
 				'Las Vegas',
-				'beach.jpeg',
+				'http://www.lasvegas.com',
 				'Anptoght Author',
 				'vegas.jpg',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				'The city that never sleeps'
 				)
 		]
 	},
